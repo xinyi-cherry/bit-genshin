@@ -14,3 +14,5 @@
 - 添加style
   前往[此处](https://userstyles.world/style/11791/default-slug)，点击install安装样式
 - 尽情使用
+
+- 附：sytlish用户可前往此处安装https://userstyles.org/styles/268997/theme
