@@ -10,6 +10,7 @@
 
 - 安装stylus
   [Edge/Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)(Chrome扩展商店，自行解决打开问题（
+  
   [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/styl-us/)
 - 添加style
   前往[此处](https://userstyles.world/style/11791/default-slug)，点击install安装样式
