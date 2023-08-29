@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name           原神BIT
-@namespace      github.com/xinyi-cherry/genshin-bit
+@namespace      github.com/xinyi-cherry/bit-genshin
 @version        1.0.0
 @description    原神，启动！
 @author         KanoSaikou
@@ -8,6 +8,9 @@
 @-moz-document url-prefix("https://login.bit.edu.cn/authserver/login"),
 url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf84695297e6a596a468ca88d1b203b/") {
     /* Insert code here... */
+    body{
+        cursor: url(https://kanosaikou.cn/cursor.ico),auto;
+    }
     @font-face {
         font-family: "HYWenHei 85W";
         src: url("https://kanosaikou.cn/getfont.php") format("truetype");
@@ -173,6 +176,7 @@ url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf8
     }
     a[class="login-btn lang_text_ellipsis"]:after {
         font-size: 16px;
+        width: 100%;
         font-weight: 400;
         content: "进入游戏";
         font-family: "HYWenHei 85W";
@@ -181,6 +185,8 @@ url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf8
     }
     #login_submit {
         background-color: RGB(57, 59, 64);
+        display: flex;
+        align-items: center;
     }
     a[class="login-btn lang_text_ellipsis"] {
         font-size: 0px!important;
@@ -217,7 +223,7 @@ url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf8
     }
     .about span:after {
         font-size: 14px!important;
-        content: "";
+        content: "关于BTO的更多信息";
         font-family: "HYWenHei 85W";
     }
     .aboutdetail {
@@ -225,7 +231,7 @@ url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf8
     }
     .aboutdetail:after {
         font-size: 14px!important;
-        content: "";
+        content: "前往主的世界查看";
         font-family: "HYWenHei 85W";
     }
 }
