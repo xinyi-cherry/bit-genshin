@@ -1,0 +1,231 @@
+/* ==UserStyle==
+@name           原神BIT
+@namespace      github.com/xinyi-cherry/genshin-bit
+@version        1.0.0
+@description    原神，启动！
+@author         KanoSaikou
+==/UserStyle== */
+@-moz-document url-prefix("https://login.bit.edu.cn/authserver/login"),
+url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf84695297e6a596a468ca88d1b203b/") {
+    /* Insert code here... */
+    @font-face {
+        font-family: "HYWenHei 85W";
+        src: url("https://kanosaikou.cn/getfont.php") format("truetype");
+    }
+    @keyframes fadeio {
+        /*设置内容由显示变为隐藏*/
+        0% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 1;
+        }
+        99% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+            display: none;
+        }
+    }
+    @-moz-keyframes fadeio {
+        /*设置内容由显示变为隐藏*/
+        0% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 1;
+        }
+        99% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+            display: none;
+        }
+    }
+    @-webkit-keyframes fadeio {
+        /*设置内容由显示变为隐藏*/
+        0% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 1;
+        }
+        99% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+            display: none;
+        }
+    }
+    @-o-keyframes fadeio {
+        /*设置内容由显示变为隐藏*/
+        0% {
+            opacity: 1;
+        }
+        70% {
+            opacity: 1;
+        }
+        99% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0;
+            display: none;
+        }
+    }
+
+    .split {
+        display: none;
+    }
+    .dz-logo {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        padding: 0!important;
+        left: 0;
+        top: 0;
+        margin: 0!important;
+        background: url(https://www.z4a.net/images/2023/08/29/EE79A0A3-8EA0-4779-930F-561AFB7A6F7A.png) no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        z-index: 999;
+        animation: fadeio 7s alternate forwards;
+        -webkit-animation: fadeio 7s alternate forwards;
+        -moz-animation: fadeio 7s alternate forwards;
+        -o-animation: fadeio 7s alternate forwards;
+    }
+    .dz-logo img {
+        width: 0px;
+        height: 0px;
+    }
+    .prex-icon {
+        display: none;
+    }
+    #username,
+    #password {
+        margin-left: 0px;
+        padding-left: 10px;
+        width: 100%;
+        font-family: "HYWenHei 85W";
+    }
+    input {
+        font-family: "HYWenHei 85W";
+    }
+    .copyright {
+        display: none;
+    }
+    .container {
+        background: url(https://kanosaikou.cn/genshin2.gif) no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+    }
+    .shuimo {
+        display: none;
+    }
+    .wrap {
+
+        margin-left: 38%;
+        margin-top: 27vh;
+    }
+    .about {
+        margin-left: 23%;
+        display: none;
+    }
+    .main {
+        background-color: rgba(255, 255, 255, 0.2)
+    }
+    .selected_underline {
+        border: 0px!important;
+        width: 100%!important;
+        padding-bottom: 5px !important;
+        border-bottom-color: RGB(57, 59, 64)!important;
+    }
+    .tabHead {
+        text-align: center;
+    }
+    #rememberMe {
+        border-radius: 7.5px;
+    }
+    span[class="title"]:after {
+        font-size: 24px;
+        font-weight: 600;
+        content: "";
+        font-family: "HYWenHei 85W";
+    }
+    span[class="title"] {
+        font-size: 0px!important;
+    }
+    a[class="loginFont_a"]:after {
+        font-size: 18px;
+        font-weight: 600;
+        content: "BIHOYO";
+        border: 0px!important;
+        height: 50px!important;
+        text-align: center;
+        color: RGB(244, 216, 168);
+        font-family: "HYWenHei 85W";
+    }
+    a[class="loginFont_a"] {
+        font-size: 0px!important;
+    }
+    a[class="login-btn lang_text_ellipsis"]:after {
+        font-size: 16px;
+        font-weight: 400;
+        content: "进入游戏";
+        font-family: "HYWenHei 85W";
+        background-color: RGB(57, 59, 64);
+        color: RGB(244, 216, 168);
+    }
+    #login_submit {
+        background-color: RGB(57, 59, 64);
+    }
+    a[class="login-btn lang_text_ellipsis"] {
+        font-size: 0px!important;
+    }
+    a[class="fo-password"]:after {
+        font-size: 14px;
+        content: "忘记密码？";
+        font-family: "HYWenHei 85W";
+        color: RGB(244, 216, 168);
+    }
+    a[class="fo-password"] {
+        font-size: 0px!important;
+    }
+    a[class="activation-account"]:after {
+        font-size: 14px;
+        content: "立即注册！";
+        font-family: "HYWenHei 85W";
+        color: RGB(244, 216, 168);
+    }
+    a[class="activation-account"] {
+        font-size: 0px!important;
+    }
+    span[style="font-size: 13px"]:after {
+        font-size: 13px!important;
+        content: "同意《用户协议》和《隐私政策》";
+        font-family: "HYWenHei 85W";
+        color: RGB(209, 209, 209);
+    }
+    span[style="font-size: 13px"] {
+        font-size: 0px!important;
+    }
+    .about span {
+        font-size: 0px!important;
+    }
+    .about span:after {
+        font-size: 14px!important;
+        content: "";
+        font-family: "HYWenHei 85W";
+    }
+    .aboutdetail {
+        font-size: 0px!important;
+    }
+    .aboutdetail:after {
+        font-size: 14px!important;
+        content: "";
+        font-family: "HYWenHei 85W";
+    }
+}
