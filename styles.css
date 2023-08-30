@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           原神BIT
 @namespace      github.com/xinyi-cherry/bit-genshin
-@version        1.0.0
+@version        1.1.0
 @description    原神，启动！
 @author         KanoSaikou
 ==/UserStyle== */
@@ -19,64 +19,76 @@ url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf8
         /*设置内容由显示变为隐藏*/
         0% {
             opacity: 1;
+            pointer-events: all;
         }
         70% {
             opacity: 1;
+            pointer-events: all;
         }
         99% {
             opacity: 0;
+            pointer-events: all;
         }
         100% {
             opacity: 0;
-            display: none;
+            pointer-events: none;
         }
     }
     @-moz-keyframes fadeio {
         /*设置内容由显示变为隐藏*/
         0% {
             opacity: 1;
+            pointer-events: all;
         }
         70% {
             opacity: 1;
+            pointer-events: all;
         }
         99% {
             opacity: 0;
+            pointer-events: all;
         }
         100% {
             opacity: 0;
-            display: none;
+            pointer-events: none;
         }
     }
     @-webkit-keyframes fadeio {
         /*设置内容由显示变为隐藏*/
         0% {
             opacity: 1;
+            pointer-events: all;
         }
         70% {
             opacity: 1;
+            pointer-events: all;
         }
         99% {
             opacity: 0;
+            pointer-events: all;
         }
         100% {
             opacity: 0;
-            display: none;
+            pointer-events: none;
         }
     }
     @-o-keyframes fadeio {
         /*设置内容由显示变为隐藏*/
         0% {
             opacity: 1;
+            pointer-events: all;
         }
         70% {
             opacity: 1;
+            pointer-events: all;
         }
         99% {
             opacity: 0;
+            pointer-events: all;
         }
         100% {
             opacity: 0;
-            display: none;
+            pointer-events: none;
         }
     }
 
@@ -96,6 +108,7 @@ url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf8
         background-position: center center;
         z-index: 999;
         animation: fadeio 7s alternate forwards;
+        pointer-events: all;
         -webkit-animation: fadeio 7s alternate forwards;
         -moz-animation: fadeio 7s alternate forwards;
         -o-animation: fadeio 7s alternate forwards;
