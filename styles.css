@@ -121,7 +121,7 @@ url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf8
         display: none;
     }
     .container {
-        background: url(https://kanosaikou.cn/genshin2.gif) no-repeat;
+        background: url(https://kanosaikou.cn/genshin-light.gif) no-repeat;
         background-size: 100% 100%;
         background-position: center center;
     }
@@ -223,7 +223,7 @@ url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf8
     }
     .about span:after {
         font-size: 14px!important;
-        content: "关于BTO的更多信息";
+        content: "";
         font-family: "HYWenHei 85W";
     }
     .aboutdetail {
@@ -231,7 +231,7 @@ url-prefix("https://webvpn.bit.edu.cn/https/77726476706e69737468656265737421fcf8
     }
     .aboutdetail:after {
         font-size: 14px!important;
-        content: "前往主的世界查看";
+        content: "";
         font-family: "HYWenHei 85W";
     }
 }
